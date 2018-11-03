@@ -13,3 +13,4 @@ if __name__ == '__main__':
     # Can take decision based on sharpness
     image_size = np.size(source_image)
     # Can take decision based on image_size
+    print("\nBrightness: {0}\nSharpness: {1}\nSize: {2}\n".format(brightness, sharpness, image_size))
