@@ -11,6 +11,6 @@ Steps to run image quality check
 2. Install the dependencies
 `pip install requirements.txt`
 
-3. Set the image name in file `image_exposure.py` (Currently it will test17.jpeg)
+3. Run `python image_exposure.py image_name`
 
-4. Run `python image_exposure.py`
+4. Configure the `sharpness_coefficent, size_coefficent, brightness_coefficent` in the code as per your use-case.
